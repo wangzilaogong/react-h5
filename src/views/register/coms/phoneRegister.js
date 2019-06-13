@@ -55,7 +55,7 @@ class PhoneRegister extends Component {
         if(res.data.token){
           Toast.info('成功')
           setTimeout(()=>{   
-            window.open('https://download.youbank.top/')
+            window.open('https://wwww.baidu.com/')
            },1000)
         }
         } catch (error) {
@@ -164,7 +164,7 @@ class PhoneRegister extends Component {
         </select> 
         </Flex.Item>
         <Flex.Item align='right'  >
-          <a href="https://download.youbank.top/" style={{color:'#DC000C'}}>
+          <a href="https://www.baidu.com/" style={{color:'#DC000C'}}>
           <FormattedMessage id="downLoad" defaultMessage="立即下载"/>
           </a>
         </Flex.Item>

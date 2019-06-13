@@ -38,7 +38,7 @@ class EmailRegister extends Component {
         if(res.data.token ){
           Toast.info('成功')
           setTimeout(()=>{   
-            window.open('https://download.youbank.top/')
+            window.open('https://www.baidu.com/')
            },1000)
         }
         } catch (error) {
